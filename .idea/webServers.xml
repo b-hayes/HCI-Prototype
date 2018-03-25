@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="c550983b-23ea-4bb5-815c-1c941f6e78ce" name="Alacritas" url="http://alacritas.cis.utas.edu.au/~bhayes1/HCI-Prototype/">
+        <fileTransfer port="0" mountedRoot="B:\public_html\HCI-Prototype" accessType="MOUNT" />
+      </webServer>
+    </option>
+  </component>
+</project>

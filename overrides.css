@@ -1,0 +1,97 @@
+img.btn-photo{
+    width: 300px;
+    height: 200px;
+    margin-bottom: 5px;
+}
+a.btn-photo{
+    margin: 5px;
+    height: 248px;
+}
+a.btn-photo:hover{
+    background-color: green;
+    background: greenyellow;
+    -webkit-box-shadow: 1px 0 30px 1px rgba(0,255,42,0.77) ;
+    box-shadow: 1px 0 30px 1px rgba(0,255,42,0.77) ;
+    color: black;
+    font-weight: bold;
+}
+
+p.map-pin{
+    position: relative;
+    margin-top: 15px;
+    margin-bottom: -75px;
+    z-index: 10;
+    color: white; !important;
+}
+
+img.map-pin{
+    width: 50px;
+}
+
+p.checkbox{
+
+}
+
+.red{
+    color: red;
+}
+.green{
+    color: lawngreen;
+}
+
+img.spot-photo{
+    width: 100px;
+    height: 70px;
+}
+a.spot-photo{
+    margin: 5px;
+    max-height: 100px;
+}
+
+span.icon{
+    text-shadow: 4px 4px 6px rgba(0,0,0,1) ;
+}
+
+.frame-div
+{
+    width    : 100%;
+    height   : 300px;
+    overflow : hidden;
+    position : relative;
+}
+
+.frame-child
+{
+    position : absolute;
+    top      : -300px;
+    left     : -300px;
+    width    : 1280px;
+    height   : 1200px;
+}
+
+#assistant {
+    position: fixed;
+    top: 60px;
+    left: 10px;
+}
+
+div.speech{
+    vertical-align: middle;
+    text-align: center;
+    position: fixed;
+    padding: 15px 30px 30px 60px;
+    top: 75px;
+    left: 60px;
+    background: url("speech-small.png") no-repeat top left;
+    /*background-size: 100% 100%;*/
+    z-index: 10000;
+    width: 380px;
+    height: 175px;
+}
+
+p.speech{
+    text-shadow: -1px -1px 1px rgba(255,255,255,1) ;
+    font-size: x-large;
+    font-weight: bold;
+    vertical-align: middle;
+}
